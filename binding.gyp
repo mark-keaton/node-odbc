@@ -9,7 +9,7 @@
         'src/odbc_result.cpp',
         'src/dynodbc.cpp'
       ],
-      'cflags' : ['-Wall', '-Wextra', '-Wno-unused-parameter', '-fsanitize=address'],
+      'cflags' : ['-Wall', '-Wextra', '-Wno-unused-parameter'],
       'include_dirs': [
         "<!(node -e \"require('nan')\")"
       ],
