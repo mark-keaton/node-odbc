@@ -15,7 +15,7 @@
       ],
       'defines' : [
         'UNICODE',
-        'DEBUG
+        'DEBUG'
       ],
       'conditions' : [
         [ 'OS == "linux"', {
